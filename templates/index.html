@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Tsukasa's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'assets/css/main.css'%}">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="{% url 'index' %}" class="logo"><strong>Tsukasa</strong> <span>'s site</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="{% url 'index' %}">Home</a></li>
+							<li><a href="{% url 'landing' %}">Landing</a></li>
+							<li><a href="{% url 'generic' %}">K or K</a></li>
+							<li><a href="{% url 'elements' %}">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#one" class="button next scrolly">see the list</a></li>
+							
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Tsukasa's Portfolio</h1>
+							</header>
+							<div class="content">
+								<p>ポートフォリオ<br />
+								一覧を見る</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">see the list</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+                    {% load static%}
+                    <img src="{% static 'images/pic01.jpg' %}" alt="">
+
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'generic' %}" class="link">K or K</a></h3>
+										<p>カブトムシかクワガタか、画像を判定</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+						
+                    {% load static%}
+                    <img src="{% static 'images/pic02.jpg' %}" alt="">
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'landing' %}" class="link">Coming soon</a></h3>
+										<p>Coming soon</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+									
+                    {% load static%}
+                    <img src="{% static 'images/pic03.jpg' %}" alt="">
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'landing' %}" class="link">Coming soon</a></h3>
+										<p>Coming soon</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										
+                    {% load static%}
+                    <img src="{% static 'images/pic04.jpg' %}" alt="">
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'landing' %}" class="link">Coming soon</a></h3>
+										<p>Coming soon</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										{% load static%}
+                    <img src="{% static 'images/pic05.jpg' %}" alt="">
+									</span>
+									<header class="major">
+										<h3><a href="{% url 'landing' %}" class="link">Coming soon</a></h3>
+										<p>Coming soon</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+                    {% load static%}
+                    <img src="{% static 'images/pic06.jpg' %}" alt="">
+									</span>
+									<header class="major">
+										<h3><a href="elements.html" class="link">Coming soon</a></h3>
+										<p>Coming soon</p>
+									</header>
+								</article>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Tsukasa</h2>
+									</header>
+									<p>student.</p>
+									<ul class="actions">
+										<li><a href="#one" class="button next scrolly">see the list</a></li>
+									</ul>
+								</div>
+							</section>
+
+					</div>
+
+				
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							
+							<ul class="copyright">
+								<li>&copy; 2023 TSUKASA</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{% static 'assets/js/jquery.min.js' %}"></script>
+      <script src="{% static 'assets/js/jquery.scrolly.min.js' %}"></script>
+			<script src="{% static 'assets/js/jquery.scrollex.min.js' %}"></script>
+			<script src="{% static 'assets/js/browser.min.js' %}"></script>
+      <script src="{% static 'assets/js/breakpoints.min.js' %}"></script>
+      <script src="{% static 'assets/js/util.js' %}"></script>
+      <script src="{% static 'assets/js/main.js' %}"></script>
+
+
+	</body>
+</html>
