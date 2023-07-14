@@ -4,7 +4,6 @@ from django.http.response import HttpResponse
 from tensorflow.python.keras.models import load_model
 from PIL import Image, ImageFilter
 import sys
-from PIL import Image
 from keras.models import load_model
 import numpy as np
 import pandas as pd
