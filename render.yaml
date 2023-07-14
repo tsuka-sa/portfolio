@@ -26,3 +26,6 @@ services:
       - key: WEB_CONCURRENCY
         value: 4 
     autoDeploy: true
+
+    healthcheck:
+      timeout: 30s
