@@ -14,4 +14,4 @@ whitenoise==6.2.0
 tensorflow==2.13.0
 pillow == 9.4.0
 pandas == 1.5.3
-sklearn == 1.2.2
+scikit-learn == 1.2.2
