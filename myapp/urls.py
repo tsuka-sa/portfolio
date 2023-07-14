@@ -9,4 +9,5 @@ urlpatterns = [
     path('/elements', views.elements_template, name='elements'),
     path('/landing', views.landing_template, name='landing'),
     path('/predict_kork', views.predict_kork, name='predict_kork'),
+    
 ]

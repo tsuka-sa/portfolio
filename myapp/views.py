@@ -7,6 +7,9 @@ import sys
 from PIL import Image
 from keras.models import load_model
 import numpy as np
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
 
 
 # Create your views here.
@@ -45,5 +48,8 @@ def predict_kork(request):
 
 
     return render(request, 'generic.html')
+
+
+
 
 
